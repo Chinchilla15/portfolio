@@ -1,0 +1,30 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "commonjs": true
+    },
+    "extends": ["airbnb-base", "prettier"],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-console": "off",
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"],
+        "no-unused-vars": "warn",
+        "no-plusplus": "warn",
+        "import/prefer-default-export": "warn",
+        "prefer-const": "warn"
+    },
+    "overrides": [
+        {
+            "files": ["webpack.config.js, main.js"],
+            "env": {
+                "node": true
+            }
+        }
+    ],
+    "ignorePatterns": ["webpack.config.js", "main.js"]
+}
