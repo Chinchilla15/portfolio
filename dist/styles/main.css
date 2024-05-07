@@ -47,11 +47,15 @@ nav {
   border-bottom: 1px solid black;
 }
 
+a {
+  text-decoration: none;
+}
+
 #logo {
   font-family: "Bebas Neue", sans-serif;
   font-size: 36px;
-  font-style: normal;
   color: var(--secondary-orange);
+  cursor: default;
 }
 
 .nav-list {
@@ -67,8 +71,7 @@ nav {
   position: relative;
 }
 
-a {
-  text-decoration: none;
+.nav-link {
   color: var(--accent-color);
 }
 
@@ -92,11 +95,50 @@ a {
 }
 
 header {
+  display: flex;
+  justify-content: center;
   background-color: var(--main-blue);
-  min-height: 350px;
+  color: var(--white-color);
+  min-height: 32rem;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  max-width: 70rem;
+}
+
+#main-img {
+  background-color: white;
+  height: 25rem;
+  width: 80rem;
+  box-shadow: 8px 8px 0px 0px #000000;
+  border: 1px solid var(--main-orange);
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  text-wrap: wrap;
+  padding: 8rem 20px;
+}
+
+.social-icons-container {
+  display: flex;
+  align-self: flex-end;
+  position: relative;
+  gap: 18px;
+  top: 100px;
+  font-size: 36px;
+}
+
+.header-icon-item {
+  text-align: center;
+  color: var(--secondary-orange);
 }
 
 main {
+  background-color: var(--white-color);
   flex: 1;
   padding: 20px;
   overflow-y: auto;
@@ -108,4 +150,33 @@ footer {
   flex-shrink: 0;
   color: white;
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 18;
+  }
+
+  #logo {
+    font-size: 14px;
+  }
+
+  .nav-list {
+    font-size: 10px;
+    gap: 12px;
+    margin-right: 10px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    max-width: 20rem;
+  }
+  .about-container {
+    padding: 2rem 5px;
+  }
+
+  .social-icons-container {
+    top: 20px;
+    font-size: 26px;
+  }
 }
