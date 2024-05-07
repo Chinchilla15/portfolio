@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 18;
+  }
+
+  #logo {
+    font-size: 14px;
+  }
+
+  .nav-list {
+    font-size: 10px;
+    gap: 12px;
+    margin-right: 10px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    max-width: 20rem;
+  }
+  .about-container {
+    padding: 2rem 5px;
+  }
+
+  .social-icons-container {
+    top: 20px;
+    font-size: 26px;
+  }
+}
