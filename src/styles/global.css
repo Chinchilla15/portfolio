@@ -15,6 +15,10 @@
   --brown-color: #57370d;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -51,6 +55,14 @@ a {
   text-decoration: none;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-blue);
+  color: var(--white-color);
+  min-height: 32rem;
+}
+
 main {
   background-color: var(--white-color);
   flex: 1;
@@ -58,10 +70,13 @@ main {
   overflow-y: auto;
 }
 footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   background-color: var(--black-color);
-  padding: 32px;
-  /*min-height: 300px;*/
-  flex-shrink: 0;
-  color: white;
+  padding: 20px;
+  height: auto;
+  flex-shrink: 1;
+  color: var(--white-color);
   text-align: center;
 }

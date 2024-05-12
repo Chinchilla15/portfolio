@@ -1,11 +1,3 @@
-header {
-  display: flex;
-  justify-content: center;
-  background-color: var(--main-blue);
-  color: var(--white-color);
-  min-height: 32rem;
-}
-
 .header-container {
   display: flex;
   align-items: center;
