@@ -4,12 +4,26 @@
   justify-content: center;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 38px;
-  padding: 100px 50px;
+  padding: 2rem 3rem;
+}
+
+main > h2,
+main > p {
+  align-self: center;
+}
+
+main > h2 {
+  padding-top: 4rem;
+}
+
+.projects-intro-link {
+  color: var(--secondary-orange);
+  justify-self: center;
 }
 
 .project-card {
   padding: 0px;
-  border: 1px solid black;
+  border: 1px solid var(--royal-blue);
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   /* box-shadow: 6px 8px 20px 2px rgba(0, 0, 0, 0.4); */
@@ -29,7 +43,7 @@
 .image {
   width: 100%;
   padding: 110px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--royal-blue);
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
@@ -64,4 +78,5 @@
   padding: 10px 0px;
   width: 100%;
   grid-area: 2/1/3/3;
+  color: var(--dark-grey);
 }
