@@ -18,7 +18,7 @@ export default function renderProjects() {
       liveLink: "https://chinchilla15.github.io/Restaurant-Page/",
       repoLink: "https://github.com/Chinchilla15/Restaurant-Page.git",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Temporibus in animi sed vero velit architecto libero, quidem a.Quos dignissimos placeat exercitationem nam. Doloribus quis, rerumiusto possimus omnis fugiat?",
+        "Model for a restaurant website (not a real restaurant). Created with a minimmalist and intuitive design with the necesarry information for the page. ",
       picture: restaurantPage,
     },
     {
@@ -26,7 +26,7 @@ export default function renderProjects() {
       liveLink: "https://chinchilla15.github.io/battleship/",
       repoLink: "https://github.com/Chinchilla15/battleship.git",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Temporibus in animi sed vero velit architecto libero, quidem a.Quos dignissimos placeat exercitationem nam. Doloribus quis, rerumiusto possimus omnis fugiat?",
+        "Fully functional battleship game on the web. Added a retro design and visually rich interface. Game mode: player vs AI. Give it a try and good luck!",
       picture: battleship,
     },
     {
@@ -34,15 +34,14 @@ export default function renderProjects() {
       liveLink: "https://chinchilla15.github.io/todo-list/",
       repoLink: "https://github.com/Chinchilla15/todo-list.git",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Temporibus in animi sed vero velit architecto libero, quidem a.Quos dignissimos placeat exercitationem nam. Doloribus quis, rerumiusto possimus omnis fugiat?",
+        "Not your typical todo-list project. Todo-List-O is a functional web app that uses local storage to keep your information ready and has several filters for your tasks. Easy to use and with great design.",
       picture: todoList,
     },
     {
       name: "Admin Dashboard",
       liveLink: "https://chinchilla15.github.io/admin-dashboard/",
       repoLink: "https://github.com/Chinchilla15/admin-dashboard.git",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Temporibus in animi sed vero velit architecto libero, quidem a.Quos dignissimos placeat exercitationem nam. Doloribus quis, rerumiusto possimus omnis fugiat?",
+      description: "Model for an admin dashboard page. Suited for desktop. ",
       picture: adminDashboard,
     },
     {
@@ -50,7 +49,7 @@ export default function renderProjects() {
       liveLink: "https://chinchilla15.github.io/weather-app/",
       repoLink: "https://github.com/Chinchilla15/weather-app.git",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Temporibus in animi sed vero velit architecto libero, quidem a.Quos dignissimos placeat exercitationem nam. Doloribus quis, rerumiusto possimus omnis fugiat?",
+        "A weather app powered by weatherAPI to check the weather anywhere you go. Created this project with a minimalist design and shows the proper weather info.",
       picture: weatherApp,
     },
     {
@@ -58,7 +57,7 @@ export default function renderProjects() {
       liveLink: "https://chinchilla15.github.io/tic-tac-toe/",
       repoLink: "https://github.com/Chinchilla15/tic-tac-toe.git",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Temporibus in animi sed vero velit architecto libero, quidem a.Quos dignissimos placeat exercitationem nam. Doloribus quis, rerumiusto possimus omnis fugiat?",
+        "The classic tic-tac-toe game on the web! Straight forward design with visual cues to keep the user updated with what is happening in the game. Suited for two-players only.",
       picture: ticTacToe,
     },
     {
@@ -66,7 +65,7 @@ export default function renderProjects() {
       liveLink: "https://chinchilla15.github.io/sign-up-form/",
       repoLink: "https://github.com/Chinchilla15/sign-up-form.git",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Temporibus in animi sed vero velit architecto libero, quidem a.Quos dignissimos placeat exercitationem nam. Doloribus quis, rerumiusto possimus omnis fugiat?",
+        "Sign Up form model with minimalist design and the proper form validation using native HTML attributes, CSS for visual interactivity and JavaScript for further validation. ",
       picture: signUpForm,
     },
     {
@@ -74,7 +73,7 @@ export default function renderProjects() {
       liveLink: "https://chinchilla15.github.io/calculator/",
       repoLink: "https://github.com/Chinchilla15/calculator.git",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Temporibus in animi sed vero velit architecto libero, quidem a.Quos dignissimos placeat exercitationem nam. Doloribus quis, rerumiusto possimus omnis fugiat?",
+        "Your clasic calculator project, one of the first ones I made and a very special one! Design inspired by the macOS calculator.",
       picture: calculator,
     },
     {
@@ -82,7 +81,7 @@ export default function renderProjects() {
       liveLink: "https://chinchilla15.github.io/Library/",
       repoLink: "https://github.com/Chinchilla15/Library.git",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Temporibus in animi sed vero velit architecto libero, quidem a.Quos dignissimos placeat exercitationem nam. Doloribus quis, rerumiusto possimus omnis fugiat?",
+        "Like to read? This is a model for a library app where you can add your books and keep track of the ones you've read and the ones pending.  ",
       picture: libraryApp,
     },
     {
@@ -90,7 +89,7 @@ export default function renderProjects() {
       liveLink: "https://chinchilla15.github.io/Etch-a-Sketch/",
       repoLink: "https://github.com/Chinchilla15/Etch-a-Sketch.git",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Temporibus in animi sed vero velit architecto libero, quidem a.Quos dignissimos placeat exercitationem nam. Doloribus quis, rerumiusto possimus omnis fugiat?",
+        "A simple etch-a-sketch on the web. This was actually my first self-taught project that I could not leave out from my portfolio! Give it a try!",
       picture: etchASketch,
     },
   ];
