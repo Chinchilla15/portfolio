@@ -4,25 +4,52 @@
   }
 
   #logo {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .nav-list {
-    font-size: 10px;
-    gap: 12px;
-    margin-right: 10px;
+    font-size: 12px;
+    gap: 10px;
+    margin: 0px;
   }
 
   .header-container {
     flex-direction: column;
     max-width: 20rem;
   }
-  .about-container {
-    padding: 2rem 5px;
+
+  #main-img {
+    margin-top: 2rem;
+  }
+  #about-container {
+    padding: 2rem 1rem 6rem 1rem;
+    margin-bottom: 3.5rem;
   }
 
-  .social-icons-container {
-    top: 20px;
-    font-size: 26px;
+  .scroll-text,
+  .reverse-scroll-text {
+    font-size: 8rem;
+  }
+
+  .scroll-text {
+    bottom: 40%;
+    animation: scroll 25s linear infinite;
+  }
+
+  .reverse-scroll-text {
+    bottom: 10%;
+    animation: scroll-reverse 25s linear infinite;
+  }
+
+  #projects-container {
+    padding: 60px 0px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .nav-list {
+    font-size: 10px;
+    gap: 8px;
+    margin: 0px;
   }
 }
