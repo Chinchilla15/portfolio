@@ -16,6 +16,10 @@ main > h2 {
   padding-top: 4rem;
 }
 
+main > p {
+  text-align: justify;
+}
+
 .projects-intro-link {
   color: var(--secondary-orange);
   justify-self: center;
@@ -26,7 +30,6 @@ main > h2 {
   border: 1px solid var(--royal-blue);
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  /* box-shadow: 6px 8px 20px 2px rgba(0, 0, 0, 0.4); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,7 +72,7 @@ main > h2 {
 }
 
 .links-box > a {
-  color: black;
+  color: var(--black-color);
   margin: 6px;
   font-size: 28px;
 }

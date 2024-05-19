@@ -1,8 +1,9 @@
 .header-container {
   display: flex;
   align-items: center;
-  max-width: 70rem;
+  max-width: 65rem;
   gap: 12px;
+  margin: 2rem;
 }
 
 .scroll-text,
@@ -10,7 +11,7 @@
   font-family: "Bebas Neue", sans-serif;
   position: absolute;
   font-size: 10rem;
-  width: 100%;
+  width: max-content;
   text-align: center;
   color: rgba(0, 0, 0, 0.2);
   white-space: nowrap;
@@ -26,9 +27,6 @@
   animation: scroll-reverse 40s linear infinite;
 }
 #main-img {
-  background-color: white;
-  height: 25rem;
-  width: 80rem;
   box-shadow: 8px 8px 0px 0px #000000;
   border: 1px solid var(--main-orange);
   z-index: 5;
@@ -46,14 +44,16 @@
   -webkit-backdrop-filter: blur(5px);
   z-index: 5;
   font-size: 18px;
+  isolation: isolate;
+  position: relative;
 }
 
 .social-icons-container {
   display: flex;
-  align-self: flex-end;
-  position: relative;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
   gap: 18px;
-  top: 100px;
   font-size: 36px;
 }
 
