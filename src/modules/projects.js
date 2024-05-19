@@ -8,9 +8,17 @@ import signUpForm from "../images/sign-up-form.png";
 import calculator from "../images/calculator.png";
 import libraryApp from "../images/library-app.png";
 import etchASketch from "../images/etch-a-sketch.png";
+import profileImg from "../images/profile-img.JPG";
 
 export default function renderProjects() {
   const mainContainer = document.getElementById("projects-container");
+  const mainImageContainer = document.getElementById("main-img");
+
+  const profileImage = document.createElement("img");
+  profileImage.src = profileImg;
+  profileImage.alt = "";
+
+  mainImageContainer.appendChild(profileImage);
 
   const projects = [
     {
