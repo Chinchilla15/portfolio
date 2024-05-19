@@ -1,5 +1,5 @@
 {
-  "name": "project-name-here",
+  "name": "alessandro.dev",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,14 +13,17 @@
     "format": "prettier --write ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Alessandro Chinchilla",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^7.1.1",
     "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
+    "file-loader": "^6.2.0",
     "prettier": "^3.2.4",
+    "style-loader": "^4.0.0",
     "webpack": "^5.90.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
