@@ -9,6 +9,7 @@ import calculator from "../images/calculator.png";
 import libraryApp from "../images/library-app.png";
 import etchASketch from "../images/etch-a-sketch.png";
 import profileImg from "../images/profile-img.JPG";
+import cvApp from "../images/cv-app.png";
 
 export default function renderProjects() {
   const mainContainer = document.getElementById("projects-container");
@@ -21,6 +22,14 @@ export default function renderProjects() {
   mainImageContainer.appendChild(profileImage);
 
   const projects = [
+    {
+      name: "CV App/Easy CV",
+      liveLink: "https://cv-app-eta-two.vercel.app/",
+      repoLink: "https://github.com/Chinchilla15/cv-app.git",
+      description:
+        "A super easy and fun way to create professional CVs! Fill out the info, customize your sections, pick a color, and download as a PDF. Intuitive design, easy to use and with excellent results. Created with ReactJS.",
+      picture: cvApp,
+    },
     {
       name: "Restaurant Page/Nitro Coffe",
       liveLink: "https://chinchilla15.github.io/Restaurant-Page/",
