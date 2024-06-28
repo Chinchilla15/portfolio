@@ -48,6 +48,10 @@
   position: relative;
 }
 
+.skills-container {
+  margin-top: 1.5rem;
+}
+
 .social-icons-container {
   display: flex;
   position: absolute;
