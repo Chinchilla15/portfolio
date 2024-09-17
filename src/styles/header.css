@@ -50,6 +50,7 @@
 
 .skills-container {
   margin-top: 1.5rem;
+  text-align: center;
 }
 
 .social-icons-container {
@@ -67,7 +68,7 @@
 }
 
 .skills-icons {
-  width: 2rem;
+  width: 3rem;
 }
 
 @keyframes scroll {
