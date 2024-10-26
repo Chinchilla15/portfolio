@@ -82,6 +82,20 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+main > h2,
+main > p {
+  align-self: center;
+}
+
+main > h2 {
+  padding-top: 4rem;
+}
+
+main > p {
+  text-align: justify;
+}
+
 footer {
   display: flex;
   flex-direction: column;

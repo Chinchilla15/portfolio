@@ -6,6 +6,39 @@
   #burger-menu {
     display: block;
   }
+
+  .featured-project,
+  .other-projects .project-card {
+    flex-basis: 100%;
+  }
+
+  .featured-projects .project-card {
+    flex-direction: column;
+  }
+
+  .featured-projects .project-image,
+  .featured-projects .project-info-container {
+    width: 100%;
+  }
+
+  .featured-projects .project-image {
+    height: 16rem;
+    width: 24rem;
+    object-fit: contain;
+  }
+
+  .other-projects .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .technologies-container {
+    justify-content: center;
+  }
+
+  .tech-box {
+    flex-basis: auto;
+    max-width: calc(50% - 5px);
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -53,5 +86,11 @@
 
   #projects-container {
     padding: 60px 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tech-box {
+    max-width: calc(50% - 5px);
   }
 }
